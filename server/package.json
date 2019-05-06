@@ -1,0 +1,21 @@
+{
+  "name": "relay-supervillains-server",
+  "version": "1.0.0",
+  "description": "GraphQL API for Supervillains",
+  "main": "src/index.js",
+  "author": "Tobias Timm <tbs.timm@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  },
+  "dependencies": {
+    "apollo-server": "^2.4.8",
+    "graphql": "^14.2.1",
+    "graphql-import": "^0.7.1",
+    "supervillains": "^3.0.0"
+  }
+}
